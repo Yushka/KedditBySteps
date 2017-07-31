@@ -3,7 +3,7 @@ package com.kedditbusteps.yushka.kedditbysteps.commons.adapter
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
 import com.kedditbusteps.yushka.kedditbysteps.R
-import com.kedditbusteps.yushka.kedditbysteps.commons.inflate
+import com.kedditbusteps.yushka.kedditbysteps.commons.Extensions.inflate
 
 /**
  * Created by Karnauhova.Y on 28.07.2017.
