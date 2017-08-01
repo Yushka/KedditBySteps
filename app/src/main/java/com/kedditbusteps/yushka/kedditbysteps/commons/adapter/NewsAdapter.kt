@@ -24,7 +24,7 @@ class NewsAdapter() : RecyclerView.Adapter<RecyclerView.ViewHolder>(), Parcelabl
 
     init {
         delegateAdapters.put(AdapterConstants.LOADING, LoadingDelegateAdapter())
-        delegateAdapters.put(AdapterConstants.NEWS, NewsDelegateAdapter())
+        delegateAdapters.put(AdapterConstants.NEWS, NewsDelagateAdapter())
         items = ArrayList()
         items.add(loadingItem)
     }
